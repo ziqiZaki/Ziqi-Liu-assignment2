@@ -9,7 +9,7 @@ const EndPage = () => {
     };
 
     const handleGithubClick = () => {
-        window.open('https://pages.github.khoury.northeastern.edu/ziqiscarlett/ziqiscarlett.github.io/');
+        window.open('https://github.khoury.northeastern.edu/ziqiscarlett/Ziqi-Liu-assignment2.git');
     };
 
     return (
