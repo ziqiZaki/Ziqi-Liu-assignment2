@@ -49,7 +49,7 @@ header {
 }
 
 .parallax {
-    background-image: url('/Users/scarlettliu/p2/life-game/cellswallpaper.jpg');
+    background-image: url('./cellswallpaper.jpg');
     position: relative;
     display: flex;
     justify-content: center;
