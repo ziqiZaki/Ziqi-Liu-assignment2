@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Protest+Guerrilla&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Protest+Guerrilla&family=Protest+Riot&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppons', sans-serif;
+}
+
+::selection {
+    background: rgba(0, 0, 0, .2);
+}
+
+body {
+    background: white;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.navi a {
+    text-decoration: none;
+    color: #0a287f;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+
+.navi a:hover,
+.navi a.active {
+    background: #74ddfa;
+    color: white;
+}
+
+.parallax {
+    background-image: url('/Users/scarlettliu/p2/life-game/cellswallpaper.jpg');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    font-family: "Protest Guerrilla", sans-serif;
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.sec {
+    position: relative;
+    background: #37a3e6;
+    padding: 100px;
+}
+
+.sec h2 {
+    margin-top: 20px;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+    font-family: "Katibeh", serif;
+}
+
+.sec p {
+    margin-top: 10px;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.start-game-btn {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 1em;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #2634a1;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.start-game-btn:hover {
+    background-color: rgb(123, 191, 218);
+}
+
+.scroll-hint {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Katibeh", serif;
+    font-size: 2.5em;
+}
